@@ -1,0 +1,215 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(four.jpeg);
+	background-attachment:fixed;
+	background-size:cover;
+	font-family: sans-serif;
+}
+.title
+{
+	color:deepskyblue;
+	text-align:center;
+	top:5%;
+	left:45%;
+	position:absolute;
+}
+ul
+{
+	position: relative;
+	width: 1000px;
+	margin: 100px auto 0;
+	padding: 20px;
+	box-sizing: border-box;
+	background: black;
+	box-shadow: inset 0 0 15px rgba(0,0,0,.2);
+	border-radius: 5px;
+	left:5%;
+	overflow: hidden;
+}
+ul li
+{
+	display: flex;
+	background: rgba(255,255,255,.1);
+	padding: 10px 20px;
+	color: #fff;
+	margin: 5px 0;
+	transition: .5s;
+	font-size:18px;
+}
+/*ul li:nth-child(1)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(2)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(3)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(4)
+{
+	background: rgba(255,255,255,.6);
+}ul li:nth-child(5)
+{
+	background: rgba(255,255,255,.6);
+}ul li:nth-child(6)
+{
+	background: rgba(255,255,255,.6);
+}ul li:nth-child(7)
+{
+	background: rgba(255,255,255,.6);
+}ul li:nth-child(8)
+{
+	background: rgba(255,255,255,.6);
+}ul li:nth-child(9)
+{
+	background: rgba(255,255,255,.6);
+}ul li:nth-child(10)
+{
+	background: rgba(255,255,255,.6);
+}ul li:nth-child(11)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(12)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(13)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(14)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(15)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(16)
+{
+	background: rgba(255,255,255,.6);
+}
+/*ul li:nth-child(17)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(18)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(19)
+{
+	background: rgba(255,255,255,.6);
+}
+ul li:nth-child(20)
+{
+	background: rgba(255,255,255,.6);
+}*/
+
+
+
+
+ul li span:nth-child(1)
+{
+	height:50px;
+	width: 30px;
+}
+ul li span:nth-child(2)
+{
+	width: 200px;
+}
+ul li span:nth-child(3)
+{
+	width: 100px;
+	text-align: right;
+}
+ul li span:nth-child(4)
+{
+	width: 70px;
+	text-align: right;
+}
+ul li:hover
+{
+	transform: scale(1.06);
+	background: deepskyblue;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: blanchedalmond;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+#tag{
+	margin-bottom:20px;
+}
+.main {
+  margin-left: 200px; 
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.badge
+{
+
+	left:70%;
+	position:absolute;
+	font-size:1em;
+}
+.name
+{
+	
+	left:40%;
+	position:absolute;
+}

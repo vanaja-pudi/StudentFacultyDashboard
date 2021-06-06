@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>
+Faculty-Info</title>
+    <link href="logo.png"
+		rel="icon"
+		type="png">
+<link rel="stylesheet" href="faculty.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+</head>
+<body>
+<div class="sidenav">
+<br><br><br>
+	<a href="cstudent.php"id="tag"><i class="fa fa">Home</i></a>
+	<button class="dropdown-btn"><i class="fa fa">TimeTable</i>
+		<i class="fa fa"></i>
+	  </button>
+	  <div class="dropdown-container">
+		<a href="ce-1.html">CE-1</a>
+		<a href="ce-2.html">CE-2</a>
+	  </div></br>
+	  <a href="csubmit.php"id="tag"><i class="fa fa">Post</i></a>
+	<a href="#"id="tag"><i class="fa fa">Faculty</i></a>
+	<a href="mainciv.php"id="tag"><i class="fa fa">logout</i></a>
+</div>
+<div class="main">
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+<div class="title">
+<h1><i>FACULTY DETAILS</i></h1>
+</div>
+<ul>
+<li>
+		<span class="number"><h1>S.NO</h1></span> 
+				
+		<span class="name"><h1>NAME</h1></span>
+
+		<span class="badge"><h1>GMAIL</h1></span>
+	</li>
+
+		
+		<li>
+	<span class="number">1</span>
+	<span class="name">B.Neeraja Satya</span>
+	<span class="badge">neerajasatya72@gmail.com</span>
+	</li>
+	<li>
+	<span class="number">2</span>
+	<span class="name">Ch.Tejkiran</span>
+	<span class="badge">tej2teju@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">3</span>
+		<span class="name">N.R.N.Premkumar</span>
+		<span class="badge">Premnakkana@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">4</span>
+		<span class="name">P.Krupasekhar</span>
+		<span class="badge">krupasekhar123@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">5</span>
+		<span class="name">B.Ramaraju</span>
+		<span class="badge">ramarajuburle@gmail.com</span>
+	</li>
+</ul>
+</body>
+</html>

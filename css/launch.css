@@ -1,0 +1,426 @@
+/*======================================
+        Basic Properties starts
+=========================================*/
+body
+{
+    overflow: hidden;
+    
+}
+
+
+.pace-running .entire-content
+{
+    opacity: 0;
+}
+
+
+
+.pace-done .entire-content
+{
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.logo img
+{
+	height:100px;
+	width:100px;
+}
+  .launch
+  {
+	  height:40px;
+	  width:130px;
+	  border:2px solid white;
+	  top:60%;
+	  left:45%;
+	  position:absolute;
+	  font-size:20px;
+	  background:white;
+	  color:black;
+	  font-weight:bold
+  }
+.launch:hover{
+	background:transparent;
+	color:white;
+}
+/*=======================================
+         Basic Properties Ends
+=========================================*/
+  
+
+
+/*======================================
+           Navigation starts
+=========================================*/
+
+
+.navbar
+{
+    padding: 24px 0px;     
+    border-bottom: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a
+{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px; 
+    font-size: 13px;
+    transition: all 0.5s ease-in;
+    background: transparent !important;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus
+{
+    color: deepskyblue !important;
+    background: none !important;
+}
+
+.navbar-toggle
+{
+    border: 1px solid white !important;
+    color: white !important;
+    transition: all 0.5s ease-in;
+}
+
+.icon-bar
+{
+    color: white !important;
+    background-color: white !important;
+}
+.navbar-toggle:hover
+{
+    background-color: deepskyblue !important;
+}
+
+ 
+.navbar-inverse .navbar-collapse
+{
+  border-color: transparent !important;  
+       
+}
+
+  
+.location
+{
+    border: 1px solid white;
+    border-radius: 50px;
+    
+}
+
+.navbar-inverse
+{
+    background-color: transparent !important;
+}  
+
+
+
+/*======================================
+            Navigation Ends
+=========================================*/
+
+/*=======================================
+ Sticky Navigation with background color
+=========================================*/
+ 
+.secondary
+{
+    background-color:#34495e;
+}
+
+
+/*======================================
+            Slider Starts
+=========================================*/
+
+.slider
+{
+    width: 100%;
+    height: 800px;
+    background-image: url(..//img/slider4.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    
+}
+.clg
+{
+	color:white;
+	font-size:20px;
+	top:85%;
+	left:80%;
+	position:absolute;
+}
+
+.slider-overlay
+{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.65);
+    position: relative;
+}
+
+
+.slider-content
+{
+    position: absolute;
+    top: 37%;
+    width: 100%;
+}
+
+.icons .fa
+{
+    font-size: 35px;
+    margin-right: 7px;
+    
+}
+
+
+.cta-div
+{
+    margin-top: 30px;
+     
+}
+
+
+.btn1
+{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-top-left-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right: -6px;
+    
+}
+
+
+
+.btn1:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    
+}
+
+
+.btn2
+{
+    padding: 13px 18px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    transition: all 0.5s ease-in;
+    margin-right:10px;
+}
+
+
+
+.btn2:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    
+}
+
+.social-networks a.fa
+{
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    margin-right: 2px;
+    transition: all 0.5s ease-in;
+    
+}
+
+
+.social-networks a.fa:hover
+{
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: white;
+    border: 1px solid deepskyblue;
+    
+}
+
+ 
+.slider .text, .slider .typed-cursor
+{
+    display: inline;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.primary
+{
+    color: orangered;
+}
+
+.typed-cursor
+{
+  opacity: 1;
+  animation: blink 0.7s infinite;
+  -webkit-animation:blink 0.7s infinite;
+  -mox-animation:blink 0.7s infinite;
+    
+    
+}
+
+@keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+    
+    
+    
+}
+
+@-webkit-keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+  
+}
+
+@-moz-keyframes blink
+{
+    0%
+    {
+        opacity: 1;
+    }
+    
+    
+    50%
+    {
+        opacity: 0;
+    }
+    
+    100%
+    {
+        opacity: 1;
+    }
+    
+  
+}  
+
+/*=======================================
+            Slider Ends
+=========================================*/
+
+
+
+
+}
+
+
+.footer .fa
+{
+    font-size: 30px;
+    color: deepskyblue;
+    width: 80px;
+    height: 80px;
+    border-top -right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: white;
+    line-height: 2;
+    border: 10px solid #34495e;
+    text-align: center;
+    transition: all 0.7s ease-in;  
+}
+.social-icon a:hover .fa
+{
+    
+    border: 10px solid white;
+    transform: rotate(360deg);
+  
+}
+
+.bordernow
+{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

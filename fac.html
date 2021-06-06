@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>
+Faculty-Info</title>
+    <link href="logo.png"
+		rel="icon"
+		type="png">
+<link rel="stylesheet" href="faculty.css">
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div class="sidenav">
+<br><br><br>
+	<a href="student.php"id="tag"><i class="fa fa">Home</i></a>
+	<button class="dropdown-btn"><i class="fa fa">TimeTable</i>
+		<i class="fa fa"></i>
+	  </button>
+	  <div class="dropdown-container">
+		<a href="cse1.html">CSE-1</a>
+		<a href="cse2.html">CSE-2</a>
+		<a href="cse3.html">CSE-3</a>
+		<a href="cse4.html">CSE-4</a>
+		<a href="cse5.html">CSE-5</a>
+		<a href="cse6.html">CSE-6</a>
+	  </div></br>
+	<a href="#"id="tag"><i class="fa fa">Faculty</i></a>
+	<a href="submit.php"id="tag"><i class="fa fa">Posts</i></a>
+	<a href="index.php"id="tag"><i class="fa fa">logout</i></a>
+</div>
+<div class="main">
+  
+</div>
+<script>
+var dropdown = document.getElementsByclassName("dropdown-btn");
+var i;
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+<div class="title">
+<h1><i>FACULTY DETAILS</i></h1>
+</div>
+<ul>
+<li>
+		<span class="number"><h1>S.NO</h1></span> 
+				
+		<span class="name"><h1>NAME</h1></span>
+
+		<span class="badge"><h1>GMAIL</h1></span>
+	</li>
+
+		
+		<li>
+	<span class="number">1</span>
+	<span class="name">S.Sateesh Kumar</span>
+	<span class="badge">sateeshkumar33@gmail.com</span>
+	</li>
+	<li>
+	<span class="number">2</span>
+	<span class="name">N.Sesha Kumar</span>
+	<span class="badge">mail2seshu@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">3</span>
+		<span class="name">N.Srilatha</span>
+		<span class="badge">Srilathacse@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">4</span>
+		<span class="name">C.Suneetha</span>
+		<span class="badge">Suneethac521@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">5</span>
+		<span class="name">G.Jayakrishna</span>
+		<span class="badge">Jayakrishna0005@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">6</span>
+		<span class="name">M.Indraja</span>
+		<span class="badge">indraja.iiits@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">7</span>
+		<span class="name">K.Vijayabhaskar</span>
+		<span class="badge">vijaybhaskarcdpc@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">8</span>
+		<span class="name">Ch.Satish Kumar</span>
+		<span class="badge">chilla.satishkumar@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">9</span>
+		<span class="name">T.Anil Kumar</span>
+		<span class="badge">anilkumar10491@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">10</span>
+		<span class="name">S.Subhash Yadav</span>
+		<span class="badge">yadav.subhash2@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">11</span>
+		<span class="name">J.Vishnu Priyanka</span>
+		<span class="badge">priyajv34@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">12</span>
+		<span class="name">S.Lakshmisri</span>
+		<span class="badge">laxmisrisuru19@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">13</span>
+		<span class="name">N.Srikanth</span>
+		<span class="badge">nsrikanth308@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">14</span>
+		<span class="name">M.Roopa</span>
+		<span class="badge">roopa1237@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">15</span>
+		<span class="name">A.krishnaveni</span>
+		<span class="badge">krishnaveni.ampolu@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">16</span>
+		<span class="name">N.NaveenKumar</span>
+		<span class="badge">naveen1234namburu@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">17</span>
+		<span class="name">Sriharshabhargavi</span>
+		<span class="badge">****@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">18</span>
+		<span class="name">K.Suneel</span>
+		<span class="badge">****@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">19</span>
+		<span class="name">K.Gopalkrishna</span>
+		<span class="badge">****@gmail.com</span>
+	</li>
+	</ul>
+</body>
+</html>

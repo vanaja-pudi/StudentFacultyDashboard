@@ -1,0 +1,31 @@
+body
+{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	font-family:cooper;
+	background:url(4.jpg);
+}
+.testimonials
+{
+	margin:100px auto 100px;
+	display:grid;
+	grid-template-coLumns:repeat( auto-fit,minmax(350px,1fr));
+	grid-gap:20px;
+}
+.testimonials .card
+{
+	color:white;
+	position:relative;
+	width:450px;
+	height:450px;
+	margin:0 auto;
+	background:#333;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center;
+	box-shadow:0 10px 40px rgba(0,0,0,0.5);
+	overflow:hidden;
+	
+}

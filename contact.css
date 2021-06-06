@@ -1,0 +1,179 @@
+body
+{
+	margin:0;
+	padding:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	min-height:8px;
+	background:;
+}
+.container
+{
+	width:1000px;
+display:flex;
+	justify-content:space-between;
+}
+
+/*====================fhy*/
+.box4
+{
+	position:absolute;
+	width:300px;
+	height:300px;
+	background:black;
+	box-shadow:0 30px 30px rgba(0,0,0,.5);
+	background:url(stud.jpg);
+	background-size:cover;
+	top:50%;
+	left:68%;
+	transform:translate(-50%,-50%);
+	
+}
+
+.box4:hover
+{
+	background:black;
+}
+.box4 .content{
+	position:absolute;
+	bottom:20px;
+	left:10%;
+	width:80%;
+	height:60px;
+	background:#fff;
+	transition:all 0.5s ease-in;
+	overflow:hidden;
+	padding:14px;
+	box-sizing:border-box;
+	
+}
+.box4:hover .content{
+	width:100%;
+	height:100%;
+	bottom:0;
+	left:0;
+}
+.box4 .content h3
+{
+	margin:0;
+	padding:0;
+	font-size:20px;
+}
+.box4 .content p
+{
+	margin:10px 0 0 ;
+	padding:0;
+	opacity:0;
+	line-height:1.2em;
+	transition:0.5s;
+	text-align:justify;
+}
+.box4:hover .content p
+{
+	opacity:1;
+	transition-delay:0.10s;
+}
+
+
+.box5
+{
+	position:absolute;
+	width:300px;
+	height:300px;
+	background:black;
+	box-shadow:0 30px 30px rgba(0,0,0,.5);
+	background:url(stud.jpg);
+	background-size:cover;
+	top:50%;
+	left:40%;
+	transform:translate(-50%,-50%);
+	
+}
+
+.box5:hover
+{
+	background:black;
+}
+.box5 .content{
+	position:absolute;
+	bottom:20px;
+	left:10%;
+	width:80%;
+	height:60px;
+	background:#fff;
+	transition:all 0.5s ease-in;
+	overflow:hidden;
+	padding:14px;
+	box-sizing:border-box;
+	
+}
+.box5:hover .content{
+	width:100%;
+	height:100%;
+	bottom:0;
+	left:0;
+}
+.box5 .content h3
+{
+	margin:0;
+	padding:0;
+	font-size:20px;
+}
+.box5 .content p
+{
+	margin:10px 0 0 ;
+	padding:0;
+	opacity:0;
+	line-height:1.2em;
+	transition:0.5s;
+	text-align:justify;
+}
+.box5:hover .content p
+{
+	opacity:1;
+	transition-delay:0.10s;
+}
+.sub{
+	color:black;
+	font-family:Matura MT Script Capitals;
+	top:10%;
+	position:absolute;
+}
+.cop
+{
+	top:93%;
+	left:2%;
+	position:absolute;
+	color:black;
+	font-size:23px;
+	font-weight:bold;
+}	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

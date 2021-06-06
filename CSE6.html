@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>time table</title>
+<link rel="stylesheet" href="time.css">
+<link href="logo.png"
+	rel="icon"
+	type="png">
+	<link rel="stylesheet" href="time.css">
+	<link rel="stylesheet" href="all.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+</head>
+<body>
+
+<div class="sidenav">
+<br><br><br>
+	<a href="student.php"id="tag"><i class="fa fa">Home</i></a>
+	<button class="dropdown-btn"><i class="fa fa">TimeTable</i>
+		<i class="fa fa"></i>
+	  </button>
+	  <div class="dropdown-container">
+		<a href="cse1.html">CSE-1</a>
+		<a href="cse2.html">CSE-2</a>
+		<a href="cse3.html">CSE-3</a>
+		<a href="cse4.html">CSE-4</a>
+		<a href="cse5.html">CSE-5</a>
+		<a href="cse6.html">CSE-6</a>
+	  </div></br>
+	<a href="submit.php"id="tag"><i class="fa fa">Post</i></a>
+	<a href="fac.html"id="tag"><i class="fa fa">Faculty</i></a>
+	<a href="index.php"id="tag"><i class="fa fa">logout</i></a>
+</div>
+
+<div class="cc">
+<div class="heading">cse-6</div>
+<table border="1" align="center" height="500" width="1000" bgcolor="transparent" cell spacing="0" cell padding="0">
+<tr>
+<th>DAY/PERIOD
+<th>1
+<th>2
+<th>3
+<th>4
+<th rowspan=6 bgcolor="gray">L<br>U<br>N<br>C<br>H<br><br><br>B<br>R<br>E<br>A<br>K
+<th>5
+<th>6
+<th>7
+</tr>
+<tr>
+<th>MONDAY
+<td>MAD
+<td>SE
+<td>SE
+<td>CN
+<td colspan=3>ENGLISH LAB
+</tr>
+<tr>
+<th>TUESDAY
+<td>PS
+<td>PS
+<td>CN
+<td>SE
+<td colspan=3>MAD LAB
+</tr>
+<tr>
+<th>WEDNESDAY
+<td>MAD
+<td>CN
+<td>PS
+<td>PS
+<td>ISN
+<td>T&P
+<td>DA
+</tr>
+<tr>
+<th>THURSDAY
+<td>AI
+<td>T&P
+<td>CN
+<td>MAD
+<td colspan=3>SE LAB
+</tr>
+<tr>
+<th>FRIDAY
+<td>MAD
+<td>AI
+<td>ISN
+<td>SE
+<td colspan=3>CN LAB
+</tr>
+</div>
+</table>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+</body>
+</html>

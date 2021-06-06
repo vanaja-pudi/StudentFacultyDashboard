@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>time table</title>
+<link rel="stylesheet" href="time.css">
+<link href="logo.png"
+	rel="icon"
+	type="png">
+	<link rel="stylesheet" href="time.css">
+	<link rel="stylesheet" href="all.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+</head>
+<body>
+
+<div class="sidenav">
+<br><br><br>
+	<a href="efaculty.php"id="tag"><i class="fa fa">Home</i></a>
+	<button class="dropdown-btn"><i class="fa fa">TimeTable</i>
+		<i class="fa fa"></i>
+	  </button>
+	  <div class="dropdown-container">
+		<a href="es-1.html">ECE-1</a>
+		<a href="es-2.html">ECE-2</a>
+		<a href="es-3.html">ECE-3</a>
+		<a href="es-4.html">ECE-4</a>
+		<a href="es-5.html">ECE-5</a>
+		<a href="es-6.html">ECE-6</a>
+	  </div></br>
+	  </div></br>
+		<a href="ecepost.php"id="tag"><i class="fa fa">Posts</i></a>
+		<button class="dropdown-btn"><i class="fa fa">Assignments</i>
+		<i class="fa fa"></i>
+		  </button>
+		 <div class="dropdown-container">
+			<a href="estposts1.php">ECE-1</a>
+			<a href="estposts2.php">ECE-2</a>
+			<a href="estposts3.php">ECE-3</a>
+			<a href="estposts4.php">ECE-4</a>
+			<a href="estposts5.php">ECE-5</a>
+			<a href="estposts6.php">ECE-6</a>
+		</div></br>
+	<a href="faece.php"id="tag"><i class="fa fa">logout</i></a>
+</div>
+
+<div class="cc">
+<div class="heading">ECE-6</div>
+<table border="1" align="center" height="500" width="1000" bgcolor="transparent" cell spacing="0" cell padding="0">
+
+<tr>
+<th>DAY/PERIOD
+<th>1
+<th>2
+<th>3
+<th>4
+<th rowspan=6 bgcolor="gray">L<br>U<br>N<br>C<br>H<br><br><br>B<br>R<br>E<br>A<br>K
+<th>5
+<th>6
+<th>7
+</tr>
+<tr>
+<th>MONDAY
+<td>DSP
+<TD colspan=2>DC LAB
+<TD>DC
+<TD>DC
+<TD>RF&MW
+</TR>
+<tr>
+<th>TUESDAY
+<td>DC
+<td COLSPAN=3>MAT LAB
+<td>DSP
+<td>DSP
+<td>RF&MW
+</tr>
+<tr>
+<th>WEDNESDAY
+<td>RF&MW
+<td COLSPAN=3>MP&MC LAB
+<td COLSPAN=3>DSP LAB
+</tr>
+<tr>
+<th>THURSDAY
+<td>DC
+<td>DC
+<td>MP&MC
+<td>DSP
+<td>RF&MW
+<td>RF&MW
+<td>MP&MC
+</tr>
+<tr>
+<th>FRIDAY
+<TD>DSP
+<TD>MP&MC
+<TD>MP&MC
+<td>DC
+<td COLSPAN=3>ENGLISH LAB
+</tr>
+</div>
+</table>
+</div>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+</body>
+</html>

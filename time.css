@@ -1,0 +1,57 @@
+body
+{
+	font-family: "Lato", sans-serif;
+margin:0;
+padding:0;
+font-family:cooper;
+background-image:url(time5.jpg);
+background-size:cover;
+height:90%;
+width:100%;
+color:white;
+}
+.heading{
+	text-transform:uppercase;
+	text-shadow:2px solid white;
+	color:black;
+	padding-left:65%;
+	font-size:3em;
+	top:8%;
+	left:-10%;
+	position:absolute;
+}
+.div-overlay{
+	background:rgba(0,0,0,0.05);
+	height:100%;
+	width:100%;
+}
+h1
+{
+	color:gray;
+}
+h1:hover
+{
+	color:white;
+}
+table{
+	text-align:center;
+	left:25%;
+	top:20%;
+	position:absolute;
+}
+table, tr, td
+{
+	padding:25px;
+	border:3px solid black;
+	border-collapse:collapse;
+}
+ th{
+	font-size:10px;
+	font-size:24px;
+	padding-left:15px;
+}
+ th:hover
+{
+background:gray;
+color:black;
+}

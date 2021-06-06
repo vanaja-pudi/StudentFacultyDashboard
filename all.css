@@ -1,0 +1,102 @@
+body
+{
+	margin:0;
+	padding:0;
+  width:100%;
+  overflow-x: hidden;
+	  font-family: "Lato", sans-serif;
+	
+}
+.o
+{
+	background:deepskyblue;
+}
+h5:hover{
+	cursor:pointer;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  color: blanchedalmond;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+#tag{
+	margin-bottom:20px;
+}
+#tableDb{
+	width:80%;
+	margin-left:210px;
+	margin-top:8%;
+}
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+.active {
+  
+  color: white;
+}
+.dropdown-container a{
+	margin-bottom:5px;
+}
+.dropdown-container {
+  display: none;
+  padding-left: 8px;
+}
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.div_header{
+padding-left:35%;
+top:0%;
+position:absolute;
+font-family:cooper;
+color:black;
+}
+h2
+{
+	padding-left:20%;
+	position:absolute;
+	text-transform:capitalize;
+	text-shadow:2px solid gray;
+}
+@media (max-width: 1035px){
+  #tableDb{
+    
+  }
+  h2{
+   display: none;
+  }
+  h1{
+   display: none;
+  }
+
+}

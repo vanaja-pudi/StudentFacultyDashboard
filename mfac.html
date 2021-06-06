@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>STUDENT</title>
+  <link href="logo.png"
+	rel="icon"
+	type="png">
+<link rel="stylesheet" href="faculty.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/fontawesome.css">
+</head>
+<body>
+<div class="sidenav">
+<br><br><br>
+	<a href="mstudent.php"id="tag"><i class="fa fa">Home</i></a>
+	<button class="dropdown-btn"><i class="fa fa">TimeTable</i>
+		<i class="fa fa"></i>
+	  </button>
+	  <div class="dropdown-container">
+		<a href="me1.html">ME-1</a>
+		<a href="me2.html">ME-2</a>
+	  </div></br>
+	<a href="msubmit.php"id="tag"><i class="fa fa">Post</i></a>
+	<a href="#"id="tag"><i class="fa fa">Faculty</i></a>
+	<a href="mainmech.php"id="tag"><i class="fa fa">logout</i></a>
+</div></br>
+								<div class="title">
+<h1><i>FACULTY DETAILS</i></h1>
+</div>
+<ul>
+<li>
+		<span class="number"><h1>S.NO</h1></span> 
+				
+		<span class="name"><h1>NAME</h1></span>
+
+		<span class="badge"><h1>GMAIL</h1></span>
+	</li>
+
+		
+		<li>
+	<span class="number">1</span>
+	<span class="name">B.Lavanya</span>
+	<span class="badge">Bhukyalavanya1987@gmail.com</span>
+	</li>
+	<li>
+	<span class="number">2</span>
+	<span class="name">M.Praveena</span>
+	<span class="badge">Modugupraveena111@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">3</span>
+		<span class="name">C.Suneetha</span>
+		<span class="badge">Suneethac521@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">4</span>
+		<span class="name">Ch.krishnamurthy</span>
+		<span class="badge">cheepurupallimurthy@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">5</span>
+		<span class="name">P.Chinnarao</span>
+		<span class="badge">cool.chinna304@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">6</span>
+		<span class="name">S.Kiranmai</span>
+		<span class="badge">S.kiranmai3@rguktsklm.ac.in</span>
+	</li>
+	<li>
+		<span class="number">7</span>
+		<span class="name">G.Raju</span>
+		<span class="badge">raj.apiiit@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">8</span>
+		<span class="name">P.Ramvikas</span>
+		<span class="badge">vikas91@rguktsklm.ac.in</span>
+	</li>
+	<li>
+		<span class="number">9</span>
+		<span class="name">Ch.Suryaprakash</span>
+		<span class="badge">prakashchinthapatla@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">10</span>
+		<span class="name">A.Srinivasanaik</span>
+		<span class="badge">azmeera91@rguktsklm.ac.in</span>
+	</li>
+	<li>
+		<span class="number">11</span>
+		<span class="name">Sk.Shahazad</span>
+		<span class="badge">shahazadshk01@gmail.com</span>
+	</li>
+	<li>
+		<span class="number">12</span>
+		<span class="name">B.Velangani</span>
+		<span class="badge">velanginipulavarthy2017@gmail.com</span>
+	</li>
+</ul>
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+</body>
+</html>

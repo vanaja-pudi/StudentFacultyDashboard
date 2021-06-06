@@ -1,0 +1,189 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.message{
+	top:35%;
+	left:50%;
+	position:absolute;
+	font-weight:bold;
+	color:red;
+	font-size:50px;
+}
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: blanchedalmond;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 50px 0 20px;
+	text-align: center; 
+}
+	.main h1
+	{
+		margin: 0;
+		top:10%;
+		left:40%;
+		position:absolute;
+		padding: 0;
+		color: #262626;
+		text-transform: uppercase;
+		font-size: 36px;
+	}
+.container
+	{
+		width:50%;
+		height:500px;
+		top:20%;
+		left:15%;
+		position:absolute;
+		background: gray;
+		margin: 0 auto;
+		border: 2px solid white;
+		box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+	}
+	.container .left
+	{
+		float: left;
+		width: 23%;
+		height: 500px;
+		background-size: cover;
+		box-sizing: border-box;
+	}
+	.imgbox{
+		width: 500px;
+		height:500px;
+		
+	}
+	 .container .right
+	{
+		float: right;
+		width: 57%;
+		height: 500px;
+		box-sizing: border-box;
+		
+	}
+	.formbox{
+		width: 100%;
+		padding: 80px 40px;
+		box-sizing: border-box;
+		height: 500px;
+		background: white;
+	}
+	.formbox input{
+		margin-bottom: 20px;
+		width:60%;
+	}
+	.formbox input[type="text"]{
+		border: none;
+		border-bottom: 2px solid black;
+		outline: none;
+	}
+	.formbox textarea{
+		/*border: none;
+		border-bottom: 2px solid black;
+		outline: none;*/
+		width: 70%;
+		height: 130px;
+	}
+	.formbox select{
+		border: none;
+		border-bottom: 2px solid black;
+		outline: none;
+		width: 50%
+	}
+	.formbox input[type="submit"]{
+		width: 30%;
+		height: 40px;
+		padding: 10px 0px 10px 0px;
+		border: 2px solid black;
+		background-color: azure;
+	}
+	.formbox input[type="submit"]:hover{
+		background-color: transparent;
+		border: 2px solid green;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+  .container
+	{
+		width:60%;
+		height:550px;
+		top:20%;
+		left:35%;
+		background: gray;
+		position:absolute;
+		
+	}
+	 .container .right
+	{
+		float: right;
+		width: 50%;
+		height: 500px;
+		box-sizing: border-box;
+		
+	}
+	.container .left
+	{
+		float: left;
+		width: 23%;
+		height: 500px;
+		background-size: cover;
+		box-sizing: border-box;
+	}
+	.imgbox{
+		width: 300px;
+		height:400px;
+		
+	}
+}

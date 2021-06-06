@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+.primary
+{
+	color:orangered;
+}
+.lib
+{
+	color:white;
+}
+.text{
+	font-size:45px;
+	text-transform:uppercase;
+	position:absolute;
+	left:16%;
+	top:50%;
+}
+.overlay{
+	background:rgba(0,0,0,0.65);
+}
+/* navigation bar*/
+#header{
+	position:absolute;
+	z-index:10;
+	width:100%
+}
+.navbar{
+	padding:50px 0;
+}
+.navbar-brand h3{
+	font-weight:bold;
+	/*font-size:1.5em;*/
+}
+.navbar-dark .navbar-brand{
+	color:$dcdde1;
+}
+.nav-item{
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-left:10px;
+}
+ul#mainmenu a{
+	text-decoration: none;
+	display: block;
+
+}
+ul#submenu a{
+	color: gray;
+}
+ul#mainmenu ul#submenu{
+	display: none;
+	position: absolute;
+}
+ul#mainmenu li:hover #submenu{
+	display: block;
+}
+.navbar-dark .navbar-nav .navbar-item .nav-link:hover{
+	background:#dcdde1;
+	color:#262626;
+}
+/* navbar ends*/
+.main{
+	position:relative;
+	background:url("login.jpg");
+	min-height:100vh;
+	background-size:cover;
+	background-position:center;
+	padding:220px 0 200px;
+}
+@media(max-width:768px)	{
+	.main{
+		padding:200px 0;
+	}
+	.navbar-brand h3{
+		font-size:10px;
+		font-weight:bold;
+	}
+}

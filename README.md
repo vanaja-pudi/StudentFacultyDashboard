@@ -1,3 +1,4 @@
+
 # StudentFacultyDashboard
 Full-fledged Student-Faculty Dashboard website with complete front-end and back-end. This project was built to provide communication between students and faculty.
 Here wa gave logins for both faculty and students. This project helps faculty to post  documents,pdf,class time table and exams time table too.
